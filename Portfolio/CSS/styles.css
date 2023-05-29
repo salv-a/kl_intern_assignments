@@ -1,0 +1,179 @@
+/* -------------------FOR ALL--------------------- */
+
+html{
+   /* box-sizing: border-box; */
+}
+ /*to remove space btw section*/
+section h2{   
+    margin:0;
+}
+ /*to remove space btw section for footer*/
+footer h2{
+    margin:0;
+}
+ /*to remove space btw section for footer*/
+#margin p{
+    margin:0;
+ }
+
+
+/*for margin,padding*/
+.content{
+    position: relative;
+    margin-top: auto;
+    margin:0,auto;
+    padding:3%;
+    max-width:800px;
+    /* text-align: center; */
+} 
+h1{
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size:500%;
+    margin-bottom: 0%;
+}
+h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size:300%; 
+    margin: 0%;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; /*default 16 px*/
+    line-height:1.5;
+}
+p{
+    margin:0;
+}
+h4{
+    margin-bottom: 0;
+}
+ footer a{
+    color:#ffe66d;
+}
+
+/* -------------------profile--------------------- */
+header {
+    background:#2F3061;/*dark grey*/
+  color:blue; /*almost white*/
+  text-align: right;
+  font-style: italic;
+    padding: 1.5%;
+  margin: auto;
+
+ }
+header a{
+   color:#f7fff7;
+   text-decoration: none;
+   padding:3%;
+   font-weight: bold;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+/* -------------------profile--------------------- */
+.header {
+    background-color:#2F3061; /*blue dark*/
+    color:#f7fff7; /*almost white*/
+    text-align: center;
+    font-style: italic;
+    padding: 200px;
+    margin:auto;
+
+ }
+
+ 
+
+ /* -------------------project--------------------- */
+ /* .forcenter{
+    
+    width: 100vw;
+    
+} */
+.project_heading{
+    text-align: center;
+    width: 90vw;
+}
+
+.project_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+    padding:0;
+}
+.project{
+    max-width: 400px;
+    padding:0%;
+    
+}
+
+/* .two{
+    border-left:2px dashed #2F3061;
+    
+} */
+ .projects{
+    background:#F7FFF7; /*almost white */
+  }
+
+.projects .btn{
+    color:#f7fff7;
+  background-color:#2F3061;
+  text-decoration: none;
+  padding:8px;
+  border-radius: 4px;
+}
+
+.project p{
+    padding-bottom: 3%;
+}
+
+ /* -------------------skill--------------------- */
+
+.skills{
+  background:#A1C6D7; 
+  background-image:url(../images/for_skill.jpg);
+  background-position: top right;
+  padding-left: 500px;
+  /* text-align:center; */
+}
+
+  /* -------------------education--------------------- */
+
+.education{
+    background-color: #FFDB58;
+    background-image: url(../images/joanna-kosinska-unsplash.jpg);
+    background-position: top right;
+    padding-bottom:100px;
+
+}
+
+   /* -------------------footer--------------------- */
+
+footer{
+  background:#343434;/*dark grey*/
+  color:#f7fff7; /*almost white*/
+  text-align: center;
+  font-style: italic;
+    padding: 5%;
+  margin: auto;
+}
+
+footer a{
+    padding:25px;
+    display:inline-block;
+    text-decoration: none;
+    font-size:25px;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline
+}
+
+
