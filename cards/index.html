@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cards for users</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--------------------------------TOTAL USERS-------------------->
+        <div class="cards total" onclick="openModal('Total Users','265')">
+            <img class="images" src="images/black_total.png">
+            <h1>Total Users</h1>
+        <p>265</p>
+        </div>
+         <!---------------------------------ACTIVE USERS------------------>
+         <div class="cards active" onclick="openModal('Active Users','265')">
+            <img class="images" src="images/act.png">
+            <h1>Active Users</h1>
+            <p>265</p>
+        </div>
+        
+         <!--------------------------------INACTIVEUSERS-------------------->
+         <div class="cards inactive" onclick="openModal('Inactive Users','265')">
+            <img class="images" src="images/inactive.png">            
+            <h1>Inactive Users</h1>
+            <p>265</p>
+        </div>
+         <!----------------------------CURRENTLY ACTIVE USERS------------------->
+         <div class="cards current" onclick="openModal('Currently Active Users','265')">
+            <img class="images" src="images/active.png">
+            <h1>Currently Active Users</h1>
+            <p>265</p>
+         </div>   
+         <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <h2>User Details</h2>
+              <div id="user-details"></div>
+            </div>
+          </div>
+        
+         <script src="script.js"></script>  
+    </body>
+</html>
